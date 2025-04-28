@@ -1,22 +1,65 @@
-# 💰 Financial Decision Making Analysis
+# 🏥 Nigerian Healthcare Facilities Analysis
 
 ## 📚 Project Overview
 
-This project analyzes key factors influencing financial decision-making at both individual and organizational levels. By leveraging data analysis and visualization, it explores how variables such as income, expenses, savings behavior, risk tolerance, and investment patterns impact financial outcomes. The goal is to generate insights that support smarter financial strategies and planning.
+This project explores the distribution and accessibility of healthcare facilities across Nigeria. Using interactive dashboards and data analysis, it highlights regional disparities, ownership structures, and areas needing strategic healthcare investments.
 
 ---
 
 ## 🎯 Project Objective
 
-- Understand the major drivers behind financial decision-making.
-- Analyze behavioral patterns related to savings, investments, and risk management.
-- Identify opportunities for improving financial literacy and strategic planning.
-- Provide data-driven recommendations for effective financial decision-making.
+- Analyze the distribution and types of healthcare facilities across Nigerian states.
+- Identify gaps in healthcare service accessibility.
+- Support data-driven decision-making for policy development and resource allocation.
 
 ---
 
 ## 🧠 Methodology
 
-- **Data Collection:** Gathered datasets covering personal finance attributes (e.g., income, expenses, debts, investments) and organizational financial activities.
-- **Data Cleaning:** Addressed missing values, standardized financial metrics, and normalized income and spending data.
-- **Exploratory Data Analysis (EDA):** Uncovered patterns, correlations, and risk profiles influencing financial choic
+- **Data Collection:** Healthcare facility datasets including location, ownership, category, and operational status.
+- **Data Cleaning:** Standardized facility names, mapped locations, and removed duplicates.
+- **Exploratory Data Analysis (EDA):** Analyzed healthcare facilities by state, type (Primary, Secondary, Tertiary), and ownership (Public/Private).
+- **Visualization:** Built interactive dashboards using Power BI to showcase key patterns and gaps.
+
+**Tools Used:**  
+`Power BI`, `Excel`, `Python (Pandas, Matplotlib)`
+
+---
+
+## 📊 Key Insights
+
+- **Facility Concentration:** The South-West region has the highest concentration of healthcare facilities compared to other zones.
+- **Ownership:** Public/government-owned facilities dominate, particularly in rural regions, while private sector facilities are more common in urban centers.
+- **Service Gaps:** Rural northern regions show significant gaps in healthcare facility access.
+- **Facility Type:** Primary healthcare centers dominate the landscape, with secondary and tertiary facilities mostly found in urban areas.
+
+### 📷 Healthcare Facility Dashboards
+
+![Nigerian Health Facilities Dashboard](visuals/Nigerian_Health_Facilities_Dashboard.JPG)  
+*Figure 1: Overview of Healthcare Facility Distribution Across Nigeria*
+
+![Healthcare Facilities by Ownership and Type](visuals/Nigerian_Health_Facilities_Dh2.JPG)  
+*Figure 2: Healthcare Facilities Categorized by Ownership and Facility Type*
+
+![Healthcare Facility Coverage Gaps](visuals/Nigerian_Health_Facilities_Dh3.JPG)  
+*Figure 3: Visualization of Regional Coverage Gaps and Facility Concentration*
+
+---
+
+## ✅ Conclusion
+
+Nigeria’s healthcare facility distribution reveals strengths in urban centers but critical weaknesses in rural accessibility. Bridging these gaps through strategic investments, improved policies, and public-private partnerships is essential to achieving equitable healthcare delivery across the nation.
+
+---
+
+## 👤 Author
+
+**Opeyemi Morakinyo**  
+📧 [Email](mailto:yemigunju0@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/opeyemimorakinyo)  
+💻 [GitHub](https://github.com/Yemigunju)
+
+---
+
+> *Feel free to fork, star ⭐, or contribute to this project. Collaboration toward better healthcare data insights is highly welcome!*
+
