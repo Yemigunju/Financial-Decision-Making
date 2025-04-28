@@ -1,54 +1,53 @@
-# 🏥 Nigerian Healthcare Facilities Analysis
+# 💰 Financial Decision Making: Stock and Bond Valuation Analysis
 
 ## 📚 Project Overview
 
-This project explores the distribution and accessibility of healthcare facilities across Nigeria. Using interactive dashboards and data analysis, it highlights regional disparities, ownership structures, and areas needing strategic healthcare investments.
+This project explores stock and bond valuation techniques applied to major corporations, including Tesla, General Motors (GM), Apple, Google, and Amazon. It involves analyzing outstanding bonds, calculating bond prices based on current interest rates, evaluating premium or discount sales, and applying the Dividend Discount Model (DDM) for stock pricing. The objective is to enhance practical financial decision-making skills through real-world company data.
 
 ---
 
 ## 🎯 Project Objective
 
-- Analyze the distribution and types of healthcare facilities across Nigerian states.
-- Identify gaps in healthcare service accessibility.
-- Support data-driven decision-making for policy development and resource allocation.
+- Analyze outstanding bonds from Tesla, GM, Apple, Google, and Amazon.
+- Calculate bond prices using current prime interest rates.
+- Determine if bonds are trading at a premium or discount.
+- Apply the Dividend Discount Model to estimate stock value.
+- Compare calculated valuations with current market prices to understand real-world financial behavior.
 
 ---
 
 ## 🧠 Methodology
 
-- **Data Collection:** Healthcare facility datasets including location, ownership, category, and operational status.
-- **Data Cleaning:** Standardized facility names, mapped locations, and removed duplicates.
-- **Exploratory Data Analysis (EDA):** Analyzed healthcare facilities by state, type (Primary, Secondary, Tertiary), and ownership (Public/Private).
-- **Visualization:** Built interactive dashboards using Power BI to showcase key patterns and gaps.
+- **Data Collection:** Extracted bond details (principal amount, maturity date, coupon rate) from company annual reports.
+- **Bond Pricing:** Used current prime interest rates to calculate bond prices.
+- **Premium/Discount Analysis:** Determined bond status (premium or discount) based on calculated prices relative to principal values.
+- **Stock Valuation:** Applied the Dividend Discount Model (DDM) for GM using dividend, required return, and growth rates.
+- **Market Comparison:** Compared calculated stock values with actual market prices to assess differences and influencing factors.
 
 **Tools Used:**  
-`Power BI`, `Excel`, `Python (Pandas, Matplotlib)`
+`Excel`, `Financial Calculators`, `Google Finance`, `Investopedia`, `Federal Reserve Prime Rate Database`
 
 ---
 
 ## 📊 Key Insights
 
-- **Facility Concentration:** The South-West region has the highest concentration of healthcare facilities compared to other zones.
-- **Ownership:** Public/government-owned facilities dominate, particularly in rural regions, while private sector facilities are more common in urban centers.
-- **Service Gaps:** Rural northern regions show significant gaps in healthcare facility access.
-- **Facility Type:** Primary healthcare centers dominate the landscape, with secondary and tertiary facilities mostly found in urban areas.
+- **Bond Market Observations:**
+  - All analyzed bonds (Tesla, GM, Apple, Google, Amazon) were selling at a **premium** based on current rates.
+  - Factors such as inflation rates, principal values, coupon rates, discount rates, and company credit ratings significantly influenced bond prices.
 
-### 📷 Healthcare Facility Dashboards
+- **Stock Valuation Insights:**
+  - The calculated intrinsic value of GM stock using DDM was higher ($38.79) than the actual market value ($33.95).
+  - Differences stemmed from market fluctuations, investor sentiment, methodology assumptions, data accuracy, and liquidity.
 
-![Nigerian Health Facilities Dashboard](visuals/Nigerian_Health_Facilities_Dashboard.JPG)  
-*Figure 1: Overview of Healthcare Facility Distribution Across Nigeria*
-
-![Healthcare Facilities by Ownership and Type](visuals/Nigerian_Health_Facilities_Dh2.JPG)  
-*Figure 2: Healthcare Facilities Categorized by Ownership and Facility Type*
-
-![Healthcare Facility Coverage Gaps](visuals/Nigerian_Health_Facilities_Dh3.JPG)  
-*Figure 3: Visualization of Regional Coverage Gaps and Facility Concentration*
+- **Financial Decision Factors:**
+  - Beyond interest rates, bond price variations are affected by macroeconomic conditions, credit risks, and inflation expectations.
+  - Stock market prices often reflect broader factors beyond fundamental valuation models.
 
 ---
 
 ## ✅ Conclusion
 
-Nigeria’s healthcare facility distribution reveals strengths in urban centers but critical weaknesses in rural accessibility. Bridging these gaps through strategic investments, improved policies, and public-private partnerships is essential to achieving equitable healthcare delivery across the nation.
+The project highlights the complexity behind financial decision-making in real-world contexts. Although models like bond pricing formulas and the Dividend Discount Model provide strong theoretical frameworks, actual financial markets are influenced by behavioral, economic, and sentiment-driven factors. An effective financial decision-maker must balance analytical techniques with market realities.
 
 ---
 
@@ -61,5 +60,5 @@ Nigeria’s healthcare facility distribution reveals strengths in urban centers 
 
 ---
 
-> *Feel free to fork, star ⭐, or contribute to this project. Collaboration toward better healthcare data insights is highly welcome!*
+> *Feel free to fork, star ⭐, or collaborate on building more advanced financial decision-making models!*
 
